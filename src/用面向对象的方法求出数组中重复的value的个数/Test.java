@@ -51,7 +51,26 @@ public class Test {
         return linkedHashMap;
     }
 
+    private static void test2(){
+        ArrayList<Integer> al = new ArrayList<Integer>();
+        ArrayList<Integer> all = new ArrayList<Integer>();
+        for(int i =0;i<targetArr.length;i++){
+            if(!al.contains(targetArr[i])){
+                al.add(targetArr[i]);
+            }
+        }
+        for(int i=0;i<targetArr.length;i++){
+            all.add(targetArr[i]);
+        }
+        for(int i=0;i<al.size();i++){
+            int result = Collections.frequency(all,al.get(i));
+            System.out.println(al.get(i) + "出现了" + result + "次");
+        }
+    }
+
     public static void main(String[] args) {
         Test.test1();
+        System.out.println("========================================");
+        Test.test2();
     }
 }
