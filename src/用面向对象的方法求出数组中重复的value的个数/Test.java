@@ -51,6 +51,7 @@ public class Test {
         return linkedHashMap;
     }
 
+    /** 方法2 */
     private static void test2(){
         ArrayList<Integer> al = new ArrayList<Integer>();
         ArrayList<Integer> all = new ArrayList<Integer>();
