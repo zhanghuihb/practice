@@ -18,8 +18,20 @@ public class Test {
                 System.out.print((i + 1) + "*" + (j + 1) + "=" + (i + 1) * (j + 1) + "  ");
             }
             System.out.println();
-        }*/
+        }
         System.out.println(0x80000000);
-        System.out.println(0x7fffffff);
+        System.out.println(0x7fffffff);*/
+
+        String a = "ssdsdsdsfsnihao你好，，，你好sdej";
+        String b = "你好";
+        int count = 0;
+        while(a.contains(b)){
+            int index = a.indexOf(b);
+            int len = b.length();
+            a = a.substring(index + len);
+            count++;
+        }
+
+        System.out.println(count);
     }
 }

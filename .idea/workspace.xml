@@ -2,16 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e240c3b4-d88e-4994-a567-736b3aaa2251" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/producerandconsumer/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/producerandconsumer/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/producerandconsumer/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java文件读取/FileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lock/DeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lock/DeadReentrantLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lock/ResolveDeadLockOfOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/泛型/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/泛型/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/泛型/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/类的加载顺序/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/类的加载顺序/Parent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hui_practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hui_practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hui_practice/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hui_practice/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hui_practice/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hui_practice/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hui_practice/common/MyUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hui_practice/common/MyUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/MyUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/MyUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="275" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -20,23 +35,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>valueOf</find>
-      <find>R</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
   </component>
   <component name="ProjectId" id="1YYtWHlyYspEJ9q2Y1jruU0gp6k" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -47,28 +47,35 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lock" />
+      <recent name="泛型" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\tainyWork\practice\src" />
       <recent name="E:\tainyWork\practice\src\kdniao" />
       <recent name="E:\tainyWork\practice\src\快递鸟" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test (2)">
-    <configuration name="ProgrammingQuestion1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="编程题.ProgrammingQuestion1" />
+  <component name="RunManager" selected="Application.DeadLock">
+    <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lock.DeadLock" />
       <module name="hui_practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="编程题.*" />
+          <option name="PATTERN" value="lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProgrammingQuestion2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="编程题.ProgrammingQuestion2" />
+    <configuration name="DeadReentrantLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lock.DeadReentrantLock" />
       <module name="hui_practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="编程题.*" />
+          <option name="PATTERN" value="lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="序列化和反序列化实现克隆.Test" />
+    <configuration name="ResolveDeadLockOfOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lock.ResolveDeadLockOfOrder" />
       <module name="hui_practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="序列化和反序列化实现克隆.*" />
+          <option name="PATTERN" value="lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="producerandconsumer.Test" />
+    <configuration name="ResolveDeadLockOfTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lock.ResolveDeadLockOfTime" />
       <module name="hui_practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="producerandconsumer.*" />
+          <option name="PATTERN" value="lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,65 +122,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="泛型.Test1" />
       <module name="hui_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="泛型.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="冒泡" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="排序.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="排序.冒泡" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="hui_practice" />
-      <envs />
-    </configuration>
-    <configuration name="在线下单" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="kdniao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="kdniao.在线下单" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="hui_practice" />
-      <envs />
-    </configuration>
-    <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Test (1)" />
-      <item itemvalue="Application.ProgrammingQuestion1" />
-      <item itemvalue="Application.ProgrammingQuestion2" />
-      <item itemvalue="Application.Test (2)" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.ProgrammingQuestion2" />
-        <item itemvalue="Application.ProgrammingQuestion1" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.DeadLock" />
+        <item itemvalue="Application.ResolveDeadLockOfOrder" />
+        <item itemvalue="Application.ResolveDeadLockOfTime" />
+        <item itemvalue="Application.DeadReentrantLock" />
+        <item itemvalue="Application.Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +185,16 @@
       <workItem from="1540176369793" duration="5335000" />
       <workItem from="1540453304160" duration="24000" />
       <workItem from="1540870649620" duration="10209000" />
-      <workItem from="1583131386903" duration="2474000" />
+      <workItem from="1583131386903" duration="3294000" />
+      <workItem from="1583379306412" duration="5575000" />
+      <workItem from="1583478740665" duration="618000" />
+      <workItem from="1584349814603" duration="875000" />
+      <workItem from="1584350705141" duration="2960000" />
+      <workItem from="1585014880358" duration="6952000" />
+      <workItem from="1585118051843" duration="3745000" />
+      <workItem from="1585204645411" duration="1828000" />
+      <workItem from="1585530644065" duration="4766000" />
+      <workItem from="1586401758943" duration="27429000" />
     </task>
     <servers />
   </component>
@@ -234,116 +211,90 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="721" y="167" key="#com.intellij.ide.util.MemberChooser" timestamp="1583131871656">
+    <state x="452" y="100" key="#Inspections" timestamp="1586490114001">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="721" y="167" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583131871656" />
-    <state width="1869" height="463" key="GridCell.Tab.0.bottom" timestamp="1583133161085">
+    <state x="452" y="100" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1586490114001" />
+    <state x="452" y="100" key="#Java" timestamp="1586404554150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1869" height="463" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583133161085" />
-    <state width="1869" height="463" key="GridCell.Tab.0.center" timestamp="1583133161085">
+    <state x="452" y="100" key="#Java/0.0.1920.1040@0.0.1920.1040" timestamp="1586404554150" />
+    <state x="452" y="100" key="#Project_Structure" timestamp="1584350450213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1869" height="463" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583133161085" />
-    <state width="1869" height="463" key="GridCell.Tab.0.left" timestamp="1583133161085">
+    <state x="452" y="100" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1584350450213" />
+    <state x="414" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583135123543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1869" height="463" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583133161085" />
-    <state width="1869" height="463" key="GridCell.Tab.0.right" timestamp="1583133161085">
+    <state x="414" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583135123543" />
+    <state x="721" y="167" key="#com.intellij.ide.util.MemberChooser" timestamp="1586401861440">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1869" height="463" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583133161085" />
-    <state width="1869" height="463" key="GridCell.Tab.1.bottom" timestamp="1583133160987">
+    <state x="721" y="167" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586401861440" />
+    <state x="790" y="173" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1585118458596">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1869" height="463" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583133160987" />
-    <state width="1869" height="463" key="GridCell.Tab.1.center" timestamp="1583133160987">
+    <state x="790" y="173" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585118458596" />
+    <state x="627" y="214" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584353637304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1869" height="463" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583133160987" />
-    <state width="1869" height="463" key="GridCell.Tab.1.left" timestamp="1583133160987">
+    <state x="627" y="214" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584353637304" />
+    <state x="659" y="101" key="Diagram.Print.Preview.Dialog" timestamp="1586405339599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1869" height="463" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583133160987" />
-    <state width="1869" height="463" key="GridCell.Tab.1.right" timestamp="1583133160987">
+    <state x="659" y="101" key="Diagram.Print.Preview.Dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586405339599" />
+    <state x="690" y="207" key="FileChooserDialogImpl" timestamp="1586405371152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1869" height="463" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583133160987" />
+    <state x="690" y="207" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586405371152" />
+    <state width="1869" height="378" key="GridCell.Tab.0.bottom" timestamp="1586505865192">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="378" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586505865192" />
+    <state width="1869" height="378" key="GridCell.Tab.0.center" timestamp="1586505865192">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="378" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586505865192" />
+    <state width="1869" height="378" key="GridCell.Tab.0.left" timestamp="1586505865191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="378" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586505865191" />
+    <state width="1869" height="378" key="GridCell.Tab.0.right" timestamp="1586505865192">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="378" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586505865192" />
+    <state width="1869" height="378" key="GridCell.Tab.1.bottom" timestamp="1586505865052">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="378" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586505865052" />
+    <state width="1869" height="378" key="GridCell.Tab.1.center" timestamp="1586505865051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="378" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586505865051" />
+    <state width="1869" height="378" key="GridCell.Tab.1.left" timestamp="1586505865051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="378" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586505865051" />
+    <state width="1869" height="378" key="GridCell.Tab.1.right" timestamp="1586505865052">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="378" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586505865052" />
+    <state x="312" y="0" key="SettingsEditor" timestamp="1586405287718">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="312" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586405287718" />
+    <state x="494" y="189" width="932" height="662" key="find.popup" timestamp="1586404407632">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="494" y="189" width="932" height="662" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586404407632" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1585622969329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585622969329" />
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>hui_practice</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/practice$ResolveDeadLockOfTime.ic" NAME="ResolveDeadLockOfTime Coverage Results" MODIFIED="1586499436662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lock.*</FILTER>
+    </SUITE>
   </component>
 </project>
